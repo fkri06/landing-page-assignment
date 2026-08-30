@@ -53,7 +53,7 @@ h2 {
     font-style: italic;
 }
 
-.header, .main-content, .footer{
+.header, .cards, .cta-container, .footer{
     padding: 25px 85px;
 }
 
@@ -167,4 +167,18 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     color: #363636;
+}
+
+.testimonials {
+    padding: 25px 70px 25px 100px;
+}
+
+.quote{
+    margin-bottom: 0px;
+}
+
+.quoteby{
+    text-align: right;
+    margin: 0;
+    font-weight: 700;
 }

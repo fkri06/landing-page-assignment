@@ -3,10 +3,25 @@ body {
     font-family: 'Roboto';
 }
 
+.logo{
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.logo .surya{
+    font-weight: bold;
+}
+
+.logo .energy{
+    font-weight: 300;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 h2 {
@@ -35,4 +50,80 @@ h2 {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.header {
+    height: 80vh;
+    padding: 25px 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color:#F9FAF8;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.nav-links ul li a:hover{
+    background-color: #304057;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-content {
+    width: 60%;
+}
+
+.hero-text {
+    margin-top: 5px;
+    padding-right: 4.5rem;
+}
+
+.hero-img {
+    background-color: #3b4149;
+    width: 75%;
+    height: 40vh;
+}
+
+.hero-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.btn-signup {
+    padding: 10px 25px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.btn-signup:hover{
+    background-color: #2968ce;
 }
